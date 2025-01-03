@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Dream Web Site</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">
+      <img src="images/logo.png" alt="logo" />
+    </a>
+    <nav class="navbar">
+      <a href="index.html" class="active">Ana Sayfa</a>
+      <a href="about.html">Hakkımızda</a>
+      <a href="outlet.html">Outlet</a>
+      <a href="products.html">Ürünler</a>
+      <a href="review.html">Yorumlar</a>
+      <a href="contact.html">İletişim</a>
+    </nav>
+
+    <div class="buttons">
+      <button id="search-btn">
+        <i class="fas fa-search"></i>
+      </button>
+      <button id="cart-btn">
+        <i class="fas fa-shopping-cart"></i>
+      </button>
+      <button id="menu-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    <div class="search-form">
+      <input type="text" class="search-input" id="search-box" placeholder="search here" />
+      <i class="fas fa-search"></i>
+    </div>
+
+    <div class="cart-items-container">
+      <div class="cart-item">
+        <i class="fas fa-times"></i>
+        <img src="images/home.jpg" alt="menu" />
+        <div class="content">
+          <h3>cart item 01</h3>
+        </div>
+      </div>
+  </header>
+
+  <section class="home" id="home">
+    <div class="content">
+      <h3>Fırsatları Kaçırma</h3>
+      <p>
+        Pantolon, Tişört, Kazak ve bir çok üründe efsane indirimler
+      </p>
+      <a href="outlet.html" class="btn">İndirimli Ürünler</a>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <h1 class="heading">İndirimli Ürünler</h1>
+    <div class="box-container">
+      <div class="box">
+        <div class="box-head">
+          <img src="images/ceket1.jpg" alt="menu" />
+          <span class="menu-category">Blazer</span>
+          <h3>Özel Tasarım Siyah Blazer Çeket</h3>
+          <div class="price">$124.99 <span>189.99</span></div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-head">
+          <img src="images/ceket2.jpg" alt="menu" />
+          <span class="menu-category">Blazer</span>
+          <h3>V Kesim Haki Blazer Ceket</h3>
+          <div class="price">$120.99 <span>159.99</span></div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-head">
+          <img src="images/dericeket3.jpg" alt="menu" />
+          <span class="menu-category">Deri Ceket</span>
+          <h3>Crop Kesim Suni Deri Ceket</h3>
+          <div class="price">$99.99 <span> 119.99</span></div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-head">
+          <img src="images/ceket7.jpg" alt="menu" />
+          <span class="menu-category">Deri Ceket</span>
+          <h3>Yünlü Deri Ceket</h3>
+          <div class="price">$79.99 <span>$99.99</span></div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-head">
+          <img src="images/indirimp.jpg" alt="menu" />
+          <span class="menu-category">Baharat Notali Parfüm</span>
+          <h3>Dream Parfüm</h3>
+          <div class="price">$45.99 <span>$79.99</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="products" id="products">
+    <h1 class="heading">Öne <span>Çıkanlar</span></h1>
+    <div class="table-container">
+      <table>
+        <tr>
+          <td>
+            <div class="box">
+              <div class="box-head">
+                <span class="title">Yırtmaçlı Uzun Kırmızı Elbise</span>
+                <a  class="name">Yırtmaçlı Kırmızı Elbise</a>
+              </div>
+              <div class="image">
+                <img src="images/indirime1.jpg" alt="" />
+              </div>
+              <div class="box-bottom">
+                <div class="info">
+                  <b class="price">$96.00</b>
+                </div>
+                <div class="product-btn">
+                  <a >
+                    <i class="fas fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="box">
+              <div class="box-head">
+                <span class="title">Siyah Yırtmaçlı ve Göğüs Dekolteli Elbise</span>
+                <a  class="name">Siyah Göğüs Dekolteli Elbise</a>
+              </div>
+              <div class="image">
+                <img src="images/indirime2.jpg" alt="" />
+              </div>
+              <div class="box-bottom">
+                <div class="info">
+                  <b class="price">$66.00</b>
+                </div>
+                <div class="product-btn">
+                  <a >
+                    <i class="fas fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="box">
+              <div class="box-head">
+                <span class="title">Siyah Kısa Mezuniyet Elbisesi</span>
+                <a class="name">Mezuniyet Elbisesi</a>
+              </div>
+              <div class="image">
+                <img src="images/indirime3.jpg" alt="" />
+              </div>
+              <div class="box-bottom">
+                <div class="info">
+                  <b class="price">$76.00</b>
+                </div>
+                <div class="product-btn">
+                  <a >
+                    <i class="fas fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="box">
+              <div class="box-head">
+                <span class="title">Beyaz Dantel Elbise</span>
+                <a  class="name">Beyaz Dantel Elbise</a>
+              </div>
+              <div class="image">
+                <img src="images/beyazdantel.jpg" alt="" />
+              </div>
+              <div class="box-bottom">
+                <div class="info">
+                  <b class="price">$85.00</b>
+                </div>
+                <div class="product-btn">
+                  <a >
+                    <i class="fas fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="box">
+              <div class="box-head">
+                <span class="title">Mavi Kot Elbise</span>
+                <a  class="name">Mavi Kot Elbise</a>
+              </div>
+              <div class="image">
+                <img src="images/kotelbise.webp" alt="" />
+              </div>
+              <div class="box-bottom">
+                <div class="info">
+                  <b class="price">$60.00</b>
+                </div>
+                <div class="product-btn">
+                  <a >
+                    <i class="fas fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="box">
+              <div class="box-head">
+                <span class="title">Beyaz Transparan Yırtmaçlı Elbise</span>
+                <a class="name">Beyaz Yırtmaçlı Elbise</a>
+              </div>
+              <div class="image">
+                <img src="images/beyazsirte.jpg" alt="" />
+              </div>
+              <div class="box-bottom">
+                <div class="info">
+                  <b class="price">$120.00</b>
+                </div>
+                <div class="product-btn">
+                  <a >
+                    <i class="fas fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="box">
+              <div class="box-head">
+                <span class="title">Siyah Uzun Kollu Elbise</span>
+                <a  class="name">Siyah Uzun Kollu Elbise</a>
+              </div>
+              <div class="image">
+                <img src="images/Siyah Elbise Uzun.jpg" alt="" />
+              </div>
+              <div class="box-bottom">
+                <div class="info">
+                  <b class="price">$92.00</b>
+                </div>
+                <div class="product-btn">
+                  <a>
+                    <i class="fas fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="box">
+              <div class="box-head">
+                <span class="title">Kırmızı Mini Elbise</span>
+                <a class="name">Kırmızı Mini Elbise</a>
+              </div>
+              <div class="image">
+                <img src="images/kirmizimini.webp" alt="" />
+              </div>
+              <div class="box-bottom">
+                <div class="info">
+                  <b class="price">$68.00</b>
+                </div>
+                <div class="product-btn">
+                  <a >
+                    <i class="fas fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="box">
+              <div class="box-head">
+                <span class="title">Beyaz Kısa Elbise</span>
+                <a  class="name">Beyaz Kısa Elbise</a>
+              </div>
+              <div class="image">
+                <img src="images/beyazkisa.jpg" alt="" />
+              </div>
+              <div class="box-bottom">
+                <div class="info">
+                  <b class="price">$78.00</b>
+                </div>
+                <div class="product-btn">
+                  <a >
+                    <i class="fas fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+
+
+  <section class="menu" id="menu">
+    <h1 class="heading">Yeni Sezon Botlar</h1>
+    <div class="box-container">
+      <div class="box">
+        <div class="box-head">
+          <img src="images/ayakkabi1.jpg" alt="menu" />
+          <span class="menu-category">Ugg Bot</span>
+          <h3>Kar botu</h3>
+          <div class="price">$224.99 </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-head">
+          <img src="images/erkekbot.jpg" alt="menu" />
+          <span class="menu-category">Siyah Erkek Bot</span>
+          <h3>Kar ve su geçirmez ayakkabı</h3>
+          <div class="price">$99.99 <span> 119.99</span></div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-head">
+          <img src="images/bot1.jpg" alt="menu" />
+          <span class="menu-category">Beyaz Bot</span>
+          <h3>Beyaz Topuklu Bot</h3>
+          <div class="price">$79.99 <span>$99.99</span></div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-head">
+          <img src="images/karbotu.jpg" alt="menu" />
+          <span class="menu-category">Arazı botu</span>
+          <h3>Kaz tüyü bot</h3>
+          <div class="price">$479.99</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <section class="about" id="about">
+    <h1 class="heading">Hakkımızda</h1>
+    <div class="row">
+      <div class="image">
+        <img src="images/kapak.jpg" alt="about" />
+      </div>
+      <div class="content">
+        <h3>Eşsiz Tasarımların Sırrı: Teknoloji ve Modanın Buluşması</h3>
+        <p>
+          Bir Bilgisayar Mühendisinin İlham Veren Marka Hikayesi
+        </p>
+        <p>
+          Bilgisayar mühendisliği ve moda, genellikle birbirinden bağımsız alanlar olarak görülse de yaratıcı bir
+          mühendis olan Esma Öztürk, bu iki dünyayı birleştirerek özgün bir moda markası yaratmayı başardı. Teknolojiye
+          olan derin ilgisiyle kariyerine yön veren Öztürk, moda tutkusunu keşfettiğinde, bu iki alanın kesişiminden
+          doğan benzersiz tasarımlar oluşturmayı hedefledi. Bugün, herkesin hayranlıkla takip ettiği bir
+          mühendis-tasarımcı olarak adından sıkça söz ettiriyor ve başarılarına yenilerini eklemeye devam ediyor.
+
+          2000'li yıllardan beri hem teknoloji hem de moda alanında aktif olarak çalışan Esma Öztürk, yenilikçi
+          tasarımlarıyla daima ilgi odağı oldu. Başarısının sırrını çok çalışmak ve azim olarak tanımlayan Öztürk, aynı
+          zamanda insanlara kaliteli ve ulaşılabilir fiyatlı ürünler sunmayı kendine misyon edinmiş bir girişimci. Her
+          gün yeni şeyler öğrenerek kendini geliştiren Öztürk, kurucusu olduğu DREAM markasını daha ileri noktalara
+          taşımayı hedefliyor.
+
+          Esma Öztürk’ün tasarımlarında kalite, en dikkat çeken unsurlardan biri. Teknolojiyi moda dünyasıyla
+          buluşturduğu bu eşsiz ürünler, hem işlevsel hem de estetik açıdan fark yaratıyor. Kendisi, inovasyona olan
+          tutkusu ve sürekli öğrenme isteği sayesinde moda dünyasında farklı bir soluk olmaya devam ediyor.
+        </p>
+        
+      </div>
+    </div>
+  </section>
+
+
+</body>
+
+</html>

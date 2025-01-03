@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Kullanıcı Yorumları</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="about.html">Hakkımızda</a>
+        <a href="outlet.html">Outlet</a>
+        <a href="products.html">Ürünler</a>
+        <a href="review.html" class="active">Yorumlar</a>
+        <a href="contact.html">İletişim</a>
+      </nav>
+
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+        <button id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          id="search-box"
+          placeholder="search here"
+        />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-1.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-2.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 02</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-3.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 03</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/menu-4.png" alt="menu" />
+          <div class="content">
+            <h3>cart item 04</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="review" id="review">
+      <h1 class="heading">Kullanıcı <span>Yorumları</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/yorum.jpg" alt="quote" />
+          <p>
+            Bizler artık yaşları 70'e gelmiş birer teyzeyiz. Bundan yıllar yıllar önce DREAM markasıyla tanışıp her zaman onunla giyinmek isterdik. Son derece konforlu ve şık ürünleriyle ben ve en yakın arkadaşımın tek tercihi. Sizde geç kalmadan en yakın DREAM mağazasına koşun.
+          </p>
+          <img src="images/mteyze.jpg" alt="avatar" class="user" />
+          <h3>Emine Kara</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/yorum.jpg" alt="quote" />
+          <p>
+            Eşim sayesinde DREAM ile tanıştım. İlk zamanlar tasarımlar biraz garip geliyordu fakat bu tamemen bir ön yargıymış. Kesinlikle çok konforlu ve uzun ömürlü ürünler üretiyorlar. Artık ben de onların hayranları arasındayım!
+          </p>
+          <img src="images/madam.jpg" alt="avatar" class="user" />
+          <h3>Aykut Yılmaz</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/yorum.jpg" alt="quote" />
+          <p>
+            Ben daha 10 yaşında bir çocuğum. Annem bana her zaman en iyisini ve en kalitelisini tercih etmem gerektiğini söyleyerek büyüttü. Bu yüzden tercihim DREAM...
+          </p>
+          <img src="images/mcocuk.jpg" alt="avatar" class="user" />
+          <h3>Emir Yakut</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      
+        <div class="box">
+          <img src="images/yorum.jpg" alt="quote" />
+          <p>
+            DREAM ürünleri gerçekten harika! Özellikle rahatlık ve şıklık konusunda hiç bir markaya benzemiyor. Çok memnun kaldım, sürekli alıyorum!
+          </p>
+          <img src="images/ahmeto.jpg" alt="avatar" class="user" />
+          <h3>Ahmet Tarık Ari</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+       
+        <div class="box">
+          <img src="images/yorum.jpg" alt="quote" />
+          <p>
+            DREAM markasını her zaman çok beğendim. Ürünlerinin kalitesi her zaman mükemmel ve uzun süre kullanılabiliyor. Tasarımlar da çok şık!
+          </p>
+          <img src="images/ayso.jpg" alt="avatar" class="user" />
+          <h3>Ayşenur Büyükoflaz</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
